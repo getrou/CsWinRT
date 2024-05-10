@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0-windows10.0.19041.0</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
     <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <Platforms>x64;x86;arm64</Platforms>
   </PropertyGroup>
@@ -15,14 +15,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="1.4.1" />
+    <PackageReference Include="Microsoft.Windows.CsWinRT" Version="2.0.7" />
   </ItemGroup>
 
   <!-- NuGet package generation properties -->
   <!-- Uncomment the PropertyGroup below to generate a NuGet package for the C# WinRT component -->
-  <!--<PropertyGroup>
+  <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>1.0.0</Version>
-  </PropertyGroup>-->
+    <Version>1.0.2</Version>
+  </PropertyGroup>
 
 </Project>
